@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Pagina con Bootstrap</title>
+</head>
+
+<body>
+    <!-- #######################################-->
+    <!-- Encabezado -->
+    <!-- #######################################-->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-4">Contáctanos (593)-998857145</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id=menu>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="text- fs-5 fw-bold">Menú</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Equipo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Correo Electrónico" aria-label="email">
+                    <button class="btn btn-outline-primary" type="button">Suscribete</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- #######################################-->
+    <!-- SLIDER DE IMAGENES -->
+    <!-- #######################################-->
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./img/img1.png" class="d-block w-100" alt="img1">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/img2.jpg" class="d-block w-100" alt="img2">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/img3.jpg" class="d-block w-100" alt="img3">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- #######################################-->
+    <!-- INTRO -->
+    <!-- #######################################-->
+
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3"> El mundo <span class="text-primary"> 'cripto' </span> entra en la
+            madurez </h1>
+        <p class="p-3 fs-4">
+            El mundo cripto basado en la cadena de bloques o blockchain, desde <span class="text-primary">
+                criptomonedas </span> (bitcoin), pasando por <span class="text-primary">obras de artes digitales </span>
+            (NFTs) hasta finanzas descentralizadas
+            </span>
+        </p>
+    </section>
+
+    <!-- #######################################-->
+    <!-- SERVICIOS -->
+    <!-- #######################################-->
+
+    <section class="container'fluid">
+
+        <div class="row w-75 mx-auto servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-2 icono-wrap">
+                <img src="./img/nft.jpg" alt="nft" width="180" height="160">
+                <h3 class="fs-5 mt-4 px-4 pb-1">NFT</h3>
+                <p class="px-4">Activo digital que no podrá consumirse ni sustituirse</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-2 icono-wrap">
+                <img src="./img/crypto.jpg" alt="crypto" width="180" height="160">
+                <h3 class="fs-5 mt-4 px-4 pb-1">Criptomoneda</h3>
+                <p class="px-4">También llamadas criptodivisas o criptoactivos, son un medio digital de intercambio</p>
+
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-2 icono-wrap">
+                <img src="./img/defi.jfif" alt="defi" width="180" height="160">
+                <h3 class="fs-5 mt-4 px-4 pb-1">Defi</h3>
+                <p class="px-4">Forma experimental de finanzas que no dependen de intermediarios financieros</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-2 icono-wrap">
+                <img src="./img/smart.jfif" alt="smart" width="180" height="160">
+                <h3 class="fs-5 mt-4 px-4 pb-1">Contratos Inteligentes</h3>
+                <p class="px-4">Acuerdo entre dos personas o entidades en forma de código informático programado para
+                    ejecutarse automáticamente</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- #######################################-->
+    <!-- ACERCA DE NOSOTROS -->
+    <!-- #######################################-->
+
+    <section>
+        <div class="w-75 m-auto text-center" id=curso>
+            <h1 class="m-5 fs-2">Curso online de Oportunidades de inversión en cripto: <span class="text-primary">
+                    Trading y fundamentales</span></h1>
+            <p class="fs-4">
+                En este curso de trading con criptomonedas realizarás análisis técnico y fundamental para invertir en
+                cripto de forma segura y exitosa.
+            </p>
+        </div>
+        <div class="mt-5 text-center ">
+            <img class="img-fluid" src="./img/curso.png" alt="curso">
+        </div>
+
+
+        <div id="local" class="border-top border-2">
+            <div class="mapa"></div>
+            <div>
+                <div class="wrapper">
+                    <h2>Ubicado en Miami, Florida</h2>
+                    <h2 class="text-primary mb-4" id="typewriter"></h2>
+                    <p class="fs-5 text-body">Elegimos Miami para nuestra oficina con el objetivo de estar cerca a nuestros clientes.
+                        Estamos ubicados en Brickell, el corazón y el centro financiero de Miami, cercade los mejores restaurantes. </p>
+                    <section class="d-flex" id="numeros-local"> 
+                        <div>
+                            <p class="text-primary fs-5">248</p>
+                            <p>Dias de sol</p>
+                        </div>
+                        <div>
+                            <p class="text-primary fs-5">100%</p>
+                            <p>Aprobado</p>
+                        </div>
+                        <div>
+                            <p class="text-primary fs-5">24 °C</p>
+                            <p>Temperatura</p>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
