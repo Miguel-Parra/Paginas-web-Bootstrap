@@ -64,7 +64,17 @@ height: 48px;
     margin: 0;
 }
 
+/*==================COntactos background======================*/
+#bg-contacto {
+    position: relative;
+    top: -130px;
 
+}
+#seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
 
 
 
@@ -81,6 +91,9 @@ height: 48px;
        width: 100% !important;
        text-align: center;
    }
+   #bg-contacto {
+    top: -110px;
+}
 }
 
 /*==================Media queries extra-sm======================*/
@@ -106,4 +119,37 @@ height: 48px;
   }
 }
 
+/*==================Contactos formulario======================*/
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
 
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+
+/*==================footer======================*/
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+text-align: center;
+}
+
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
