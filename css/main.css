@@ -99,12 +99,12 @@ height: 48px;
 /*==================Media queries extra-sm======================*/
 
 @media (max-width: 576px) {
-    .icono-wrap {
-        flex-wrap: wrap !important;
+    .icono-wrap{
+        flex-wrap:wrap !important;
         justify-content: center !important;
+        text-align: center;
     }
-}
-
+    }
 /*==================Media queries pantalla ancha======================*/
 @media (max-width: 1200px){
   #local {
