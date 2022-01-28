@@ -19,6 +19,12 @@ body {
    
 }
 
+nav {
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 1;
+}
+
 .carousel-inner {
     max-height: 30rem;
 }
