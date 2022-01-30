@@ -227,18 +227,18 @@
                 <div><img src="./img/support.png" alt="contacto" class="img-fluid"></div>
                 <h2>Contactos</h2>
                 <p class="fs-5">Estamos aqui para hacer realidad tus proyectos</p>
-                <form action="">
+                <form method="post" data-netlify="true" action="#">
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control" id="nombre" placeholder="Miguel Parra" required>
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Miguel Parra" required>
                     </div>
                     <div class="mb-3">
-                        <input type="tel" class="form-control" id="tel" placeholder="0998857145" required>
+                        <input type="tel" class="form-control" id="tel" name="tel" placeholder="0998857145" required>
                     </div>
                     <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="3"
                             placeholder="Escribe tu mensaje"></textarea>
                     </div>
                     <div class="mb-3">
